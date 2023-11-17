@@ -370,7 +370,7 @@ body {
     display: block;
     color: #F4F4FD;
     background-color: #2E2F42;
-    padding: 101px 1020px 100px 0px;
+    padding: 100px 0;
 }
 .logo-f {
     color: #4D5AE5;
@@ -381,7 +381,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-left: 15px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo-f .studio-f {
     color: #F4F4FD;
@@ -392,9 +393,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-
 .footer-p {
-    display: flex;
     color: #F4F4FD;
     font-family: Roboto;
     font-size: 16px;
@@ -402,16 +401,5 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 17px;
-    text-align: justify;
-    width: 264px;
-    margin-left: 15px;
-    margin-top: 17px;
+    max-width: 264px;
 }
-
-.navigation {
-    display: flex;
-}
-
-
-
