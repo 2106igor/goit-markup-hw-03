@@ -61,6 +61,8 @@ body {
 .page-header-container {
     display: flex;
     justify-content: space-between;
+}
+.navigation {
     align-items: center;
 }
 .header {
@@ -93,8 +95,9 @@ body {
 .headlink-title {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+}
+.headlink-title-link {
+    padding: 24px 0
 }
 
 .headlink {
