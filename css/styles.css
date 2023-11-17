@@ -61,6 +61,7 @@ body {
 .page-header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header {
     border-bottom: 1px solid #e7e9fc
@@ -88,9 +89,6 @@ body {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-.navigation {
-    align-items: center;
 }
 .headlink-title {
     display: flex;
