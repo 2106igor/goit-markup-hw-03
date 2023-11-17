@@ -98,7 +98,8 @@ body {
     gap: 40px;
 }
 .headlink-title-link {
-    padding: 24px 0px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .headlink {
