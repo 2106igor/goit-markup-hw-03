@@ -97,10 +97,6 @@ body {
     display: flex;
     gap: 40px;
 }
-.headlink-title-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 
 .headlink {
     color: #2E2F42;
@@ -109,6 +105,8 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .headlink:hover {
     color: #404BBF;
