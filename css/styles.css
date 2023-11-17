@@ -280,7 +280,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .workers-title {
     display: flex;
@@ -292,6 +292,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 0px 0px 4px 4px;
 }
 .workers {
     color: #2E2F42;
@@ -302,6 +303,7 @@ body {
     letter-spacing: 0.02em;
     display: flex;
     margin-bottom: 8px;
+    text-align: center;
 
 }
 .team-p {
@@ -311,7 +313,10 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 32px;
+    text-align: center;
+}
+.team-div {
+    padding: 32px 0;
 }
 .portfolio {
     background-color: #FFF;
